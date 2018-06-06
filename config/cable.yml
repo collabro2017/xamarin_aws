@@ -1,0 +1,9 @@
+local: &local
+  url: redis://localhost:6379
+development:
+  url: redis://localhost:6379
+staging:
+  url: <%= ENV["REDIS_URL"] %>
+production:
+  url: <%= ENV["REDIS_URL"] %>
+test: *local

@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  user: one
+  location_notification: false
+  trend_notification: false
+
+two:
+  user: two
+  location_notification: false
+  trend_notification: false
